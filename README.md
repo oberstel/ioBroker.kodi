@@ -11,10 +11,10 @@
 
 ***Note: This adapter requires Node 0.12+ (so 0.10 not supported)***
 
-## Конфигурация KODI
+## Kodi Configuration
 Remote control enable.
 ![Remote control enable.] (admin/remote.jpg)
-JSON-RPC API использует **по умолчанию порт 9090**, для того чтобы его изменить необходимо внести изменения в файл [advancedsettings.xml](http://kodi.wiki/view/AdvancedSettings.xml)
+Using JSON-RPC API **default port 9090**, in order to change these setting, you have to edit this file: [advancedsettings.xml](http://kodi.wiki/view/AdvancedSettings.xml)
 
 _Note: The advancedsettings.xml file does not exist by default. You have to create it first!_
 ```xml
@@ -25,8 +25,8 @@ _Note: The advancedsettings.xml file does not exist by default. You have to crea
 ```
 ![http enable.](admin/web.jpg)
 
-## Конфигурация драйвера
-В найстройках драйвера указывается IP адрес KODI и порт для JSON-RPC API (по умолчанию 9090).
+## Configure Driver
+В IP адрес KODI и порт для JSON-RPC API (по умолчанию 9090).
 
 ## Using
 ### ShowNotif:
